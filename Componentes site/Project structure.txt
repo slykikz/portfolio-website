@@ -1,0 +1,11 @@
+mkdir portfolio-website
+cd portfolio-website
+npm create vite@latest . -- --template react
+npm install react-router-dom framer-motion lucide-react @tailwindcss/typography tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+# Estrutura de pastas
+mkdir src/components
+mkdir src/pages
+mkdir src/data
+mkdir src/styles
